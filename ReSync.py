@@ -7,7 +7,6 @@ import discord, time, nltk, numpy, requests, random
 from discord.ext import commands
 from bs4 import BeautifulSoup
 from urllib.request import Request, urlopen
-from PyQt5 import QtWidgets, QtGui
 
 description = '''An example bot to showcase the discord.ext.commands extension
 module.
