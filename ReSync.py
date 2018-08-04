@@ -94,7 +94,7 @@ async def death():
 @bot.command()
 async def ping():
     def search():
-        site = "https://www.battlemetrics.com/servers/rust/433578"
+        site = "https://www.battlemetrics.com/servers/rust/2520456"
         hdr = {'User-Agent': 'Mozilla/5.0'}
         req = Request(site,headers=hdr)
         page = urlopen(req)
